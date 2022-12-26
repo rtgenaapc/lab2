@@ -24,6 +24,18 @@
     .row {
     margin: auto;
     padding: 10px;
+    min-height:300px;
+    margin-top:40px;
+    position: relative;
+    z-index: 1; 
+    }
+    .row2 {
+    margin: auto;
+    padding: 10px;
+    min-height:586px;
+    margin-top:40px;
+    position: relative;
+    z-index: 1; 
     }
     /* --- CSS Lesson 1.1-3: Syntax  */
     /* --- CSS Lesson 1.4: Selectors  */
@@ -33,6 +45,7 @@
     /* Style the header */
     header {
       background-color: #94c7e1;
+      /* --- CSS Lesson 3.1: Background Color  */
       padding: 10px;
       text-align: center;
       font-size: 35px;
