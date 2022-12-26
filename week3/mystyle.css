@@ -65,7 +65,7 @@
         position: absolute; 
         text-align: justify; 
         font-family:verdana;
-        border-style: outset;
+        /*border-style: outset;*/
         /* --- CSS Lesson 4.1: Border  */
     }
     
