@@ -44,14 +44,13 @@
     
     /* Style the header */
     header {
-      /*background-color: #94c7e1;*/
-      background-image: url("https://images.squarespace-cdn.com/content/v1/5c5867627a1fbd515af1bd68/1631914145181-KW1T90WGEYVO61TAAAIM/UN+-+BLACKPINK+Photograph.jpg?format=1500w");
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      background: #94c7e1 url("https://images.squarespace-cdn.com/content/v1/5c5867627a1fbd515af1bd68/1631914145181-KW1T90WGEYVO61TAAAIM/UN+-+BLACKPINK+Photograph.jpg?format=1500w") no-repeat fixed;
       /* --- CSS Lesson 3.1: Background Color  */
       /* --- CSS Lesson 3.2: Background Image  */
       /* --- CSS Lesson 3.3: Background Repeat  */
-      /* --- CSS Lesson 3.3: Background Attachment  */
+      /* --- CSS Lesson 3.4: Background Attachment  */
+      /* --- CSS Lesson 3.5: Background Shorthand  */
+
       padding: 10px;
       text-align: center;
       font-size: 35px;
