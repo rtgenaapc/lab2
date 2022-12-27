@@ -28,6 +28,7 @@
     padding: 10px;
     min-height:300px;
     margin-top:40px;
+    /* --- CSS Lesson 5.1: Margins  */
     position: relative;
     z-index: 1; 
     }
