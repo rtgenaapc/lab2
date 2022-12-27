@@ -21,6 +21,7 @@
     .column2 {
     float: right;
     width: 65%;
+    /* --- CSS Lesson 6.2: Height / Width --- */
     overflow: hidden;
     }
     .row {
