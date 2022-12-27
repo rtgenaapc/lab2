@@ -27,8 +27,10 @@
     margin: auto;
     padding: 10px;
     min-height:300px;
-    margin-top:40px;
-    /* --- CSS Lesson 5.1: Margins  */
+    margin: 20px 20px 0 0;
+    /*---margin-top:40px;---*/
+    /* --- CSS Lesson 5.1: Margins --- */
+    /* --- CSS Lesson 5.2: Margin Collapse --- */
     position: relative;
     z-index: 1; 
     }
