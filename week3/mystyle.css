@@ -41,6 +41,8 @@
     margin-top:40px;
     position: relative;
     z-index: 1; 
+    border: 50px solid green;
+     /* --- CSS Lesson 6.4: Box Model --- */
     }
 
     
