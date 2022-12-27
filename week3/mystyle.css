@@ -68,5 +68,7 @@
       text-align: left;
       color: white;
       position: absolute;
+      max-width: 100px;
+      /* --- CSS Lesson 6.3: Max-Width --- */
     }
 
