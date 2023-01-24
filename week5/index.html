@@ -92,7 +92,6 @@
     <br>
     <br>
     </div>
-    /*---------*/
     <div class="JS_prac2">
     <h2>let's try JavaScript Variables</h2>
       <!--LESSON 2.1 VARIABLES-->
@@ -158,7 +157,31 @@
       document.getElementById("arith").innerHTML = c;
       </script>
     </div>
+    <div class="JS_prac5">
+      <br>
+      <br>
+      <br>
+      <h2>JavaScript Map Objects</h2>
+      <p>Creating a Map from an Array:</p>
+      <br>
+      <br>
+      <br>
+      <p id="mapp"></p>
+      <br>
+      <br>
+      <br>
+      <script>
+      // Create a Map
+      const fruits = new Map([
+        ["apples", 500],
+        ["bananas", 300],
+        ["oranges", 200]
+      ]);
+      
+      document.getElementById("mapp").innerHTML = fruits.get("apples");
+      </script>
 
+    </div>
   </div>
     <footer>© 2022 Reiner Gena.</footer>
   </body>

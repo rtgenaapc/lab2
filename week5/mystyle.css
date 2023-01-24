@@ -120,7 +120,7 @@
       margin: auto;
       padding: 10px;
       min-height:300px;
-      background-color: aquamarine;
+      background-color: white;
       position: relative;
       z-index: 1; 
       border: 50px solid #94c7e1;
@@ -138,8 +138,8 @@
     .JS_prac {
       margin: auto;
       padding: 10px;
-      min-height:1000px;
-      background-color: yellowgreen;
+      min-height:1200px;
+      background-color: white;
       position: relative;
       z-index: 1; 
       border: 50px solid #94c7e1;
