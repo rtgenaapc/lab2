@@ -53,17 +53,6 @@
       /*background-image: url(https://images.squarespace-cdn.com/content/v1/5c5867627a1fbd515af1bd68/1631914145181-KW1T90WGEYVO61TAAAIM/UN+-+BLACKPINK+Photograph.jpg?format=1500w);
       background-size:contain;*/
     }
-    .column1 {
-    float: left;
-    width: 65%;
-    overflow: hidden;
-    }
-
-    .column2 {
-    float: right;
-    width: 65%;
-    overflow: hidden;
-    }
     .row {
     margin: auto;
     padding: 10px;
@@ -98,7 +87,17 @@
         .row2 #demo {
           text-align: center;
         }
-    
+        .column1 {
+          float: left;
+          width: 65%;
+          overflow: hidden;
+          }
+      
+          .column2 {
+          float: right;
+          width: 65%;
+          overflow: hidden;
+          }
     /* Style the header */
     header {
       /*background: #94c7e1 url("https://images.squarespace-cdn.com/content/v1/5c5867627a1fbd515af1bd68/1631914145181-KW1T90WGEYVO61TAAAIM/UN+-+BLACKPINK+Photograph.jpg?format=1500w") no-repeat fixed; ---*/
