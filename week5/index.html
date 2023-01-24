@@ -217,8 +217,39 @@ document.getElementById("objval").innerHTML = Object.values(tao);
   <!--LESSON 19 MODULES-->
   <!--LESSON 22.2 DOM METHOD-->
 </div>
-<div class="JS_prac8"></div>
-<div class="JS_prac9"></div>
+<div class="JS_prac8">
+  <br>
+  <br>
+  <br>
+  <h1>Plotly.js</h1>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<body>
+
+<div id="myPlot" style="width:100%;max-width:700px"></div>
+
+<script>
+var xArray = [7,8,9,10,11,12,13,14,];
+var yArray = [2,1,1,2,5,1,1,2];
+
+// Define Data
+var data = [{
+  x:xArray,
+  y:yArray,
+  mode:"markers"
+}];
+
+// Define Layout
+var layout = {
+  xaxis: {range: [5, 15], title: "NUMBER OF CRUSHES"},
+  yaxis: {range: [0, 8], title: "YEAR LEVEL"},  
+  title: "CRUSH EME"
+};
+
+// Display using Plotly
+Plotly.newPlot("myPlot", data, layout);
+</script>
+<!--LESSON 28.4 PLOTLY-->
+</div>
 
 
 
